@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 export default class AnnoyingForm extends Component {
-    handleKeyUp(evt) {
+    handleKeyUp = evt => {
         if (evt.keyCode === 56) {
           alert("MOAR * PLZ");
         } else {
