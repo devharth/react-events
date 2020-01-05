@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./WiseSquare.css";
 
 export default class WiseSquare extends Component {
-  dispenseWisdom() {
+  dispenseWisdom = () => {
     let messages = [
       /* wise messages go here */
       "A fool thinks himself to be wise, but a wise man knows himself to be a fool.",
