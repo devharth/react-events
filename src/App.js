@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import WiseSquare from './WiseSquare';
 import AnnoyingForm from './AnnoyingForm';
+import CopyDemo from './CopyDemo';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <WiseSquare />
       <h4>On key up</h4>
       <AnnoyingForm />
+      <h4>On copy</h4>
+      <CopyDemo />
     </div>
   );
 }
